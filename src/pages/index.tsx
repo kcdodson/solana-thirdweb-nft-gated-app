@@ -1,12 +1,12 @@
 import { useLogout } from "@thirdweb-dev/react/solana";
 import { ThirdwebSDK } from "@thirdweb-dev/sdk/solana";
 import { GetServerSideProps } from "next";
-import Head from "next/head";
+
 import Image from "next/image";
 import Link from "next/link";
 import { getUser } from "../../auth.config";
 import pfp from "../../public/media/pfp.png";
-import styles from "../styles/Home.module.css";
+
 import { network } from "./_app";
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {

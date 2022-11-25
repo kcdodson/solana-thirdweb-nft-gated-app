@@ -117,7 +117,8 @@ export default function LoginPage() {
                     ></path>
                   </svg>
                   <p>
-                    Hold on, We're just looking for your DIGI Membership pass...
+                    Hold on, We are just looking for your DIGI Membership
+                    pass...
                   </p>
                 </div>
               )}
@@ -142,7 +143,7 @@ export default function LoginPage() {
                   </button>
                 ) : (
                   <p className="text-2xl font-bold mb-5 bg-red-500 text-white py-4 px-10 border-2 border-red-500 rounded-md uppercase transition duration-200">
-                    Sorry, we're all out of DIGI Membership passes!
+                    Sorry, we are all out of DIGI Membership passes!
                   </p>
                 ))}
             </div>
